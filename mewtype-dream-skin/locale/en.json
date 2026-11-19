@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "MewType dream skin",
+    "description": "Gives the DSH Web GUI five MewType character looks — Yuno, Arale, Nonoka, Ritsu and Miyako. Each is a rose-and-plum palette in that character's color, with its own aurora, starlight and glow tempo, adapted to both the light and the dark theme. The active member's official portrait stays in the conversation background in every phase, with a persistent aurora and a starlight field; the New Session home also shows that member's avatar, a character-flavored composer placeholder, and three openers matched to her personality. Pick a character in Settings → General → Character theme, or click the color ring at the sidebar foot; the plugin page's Background effects sliders tune aurora, starlight, portrait strength, and portrait size. Choices stay in this browser. Only the appearance changes: no data leaves the page and no model requests are added. Turn the bundle off under Plugins to return to the stock look.",
+    "detail": "docs/DETAIL.md"
+  }
+}

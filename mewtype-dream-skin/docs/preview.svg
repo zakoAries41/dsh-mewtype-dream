@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" fill="none">
+  <defs>
+    <linearGradient id="mewtypePreviewRing" x1="96" y1="184" x2="204" y2="76" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f25c9b"/>
+      <stop offset="0.58" stop-color="#ed86a1"/>
+      <stop offset="1" stop-color="#ffd966"/>
+    </linearGradient>
+    <linearGradient id="mewtypePreviewHair" x1="112" y1="170" x2="188" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f25c9b"/>
+      <stop offset="1" stop-color="#ff9fc4"/>
+    </linearGradient>
+    <radialGradient id="mewtypePreviewAurora" cx="0.5" cy="1" r="0.72">
+      <stop offset="0" stop-color="#f25c9b" stop-opacity="0.62"/>
+      <stop offset="0.44" stop-color="#ed86a1" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ed86a1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mewtypePreviewAuroraBlue" cx="0.5" cy="1" r="0.62">
+      <stop offset="0" stop-color="#7c9bff" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#7c9bff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mewtypePreviewAuroraGold" cx="0.5" cy="1" r="0.6">
+      <stop offset="0" stop-color="#ffd966" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#ffd966" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="mewtypePreviewCard">
+      <rect x="40" y="32" width="560" height="236" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <rect x="40" y="32" width="560" height="236" rx="24" fill="#171219"/>
+  <rect x="40.5" y="32.5" width="559" height="235" rx="23.5" stroke="#ffffff" stroke-opacity="0.1"/>
+
+  <g clip-path="url(#mewtypePreviewCard)">
+    <ellipse cx="320" cy="296" rx="304" ry="120" fill="url(#mewtypePreviewAurora)"/>
+    <ellipse cx="176" cy="290" rx="190" ry="98" fill="url(#mewtypePreviewAuroraBlue)"/>
+    <ellipse cx="492" cy="286" rx="170" ry="90" fill="url(#mewtypePreviewAuroraGold)"/>
+
+    <circle cx="250" cy="78" r="2" fill="#ffd966" fill-opacity="0.75"/>
+    <circle cx="352" cy="62" r="1.3" fill="#ffd966" fill-opacity="0.6"/>
+    <circle cx="452" cy="96" r="1.6" fill="#f25c9b" fill-opacity="0.7"/>
+    <circle cx="516" cy="68" r="1.4" fill="#9db4ff" fill-opacity="0.8"/>
+    <circle cx="568" cy="188" r="1.5" fill="#9db4ff" fill-opacity="0.55"/>
+    <circle cx="72" cy="118" r="1.4" fill="#f25c9b" fill-opacity="0.6"/>
+    <circle cx="96" cy="228" r="1.6" fill="#ffd966" fill-opacity="0.5"/>
+    <circle cx="306" cy="216" r="1.2" fill="#9db4ff" fill-opacity="0.6"/>
+
+    <!-- Avatar mark: a ringed bust with the infinity badge. -->
+    <circle cx="150" cy="138" r="52" stroke="url(#mewtypePreviewRing)" stroke-width="3"/>
+    <circle cx="150" cy="138" r="46" fill="#2a1b28"/>
+    <path d="M104 150 C 106 112, 194 112, 196 150 L 196 184 L 104 184 Z" fill="url(#mewtypePreviewHair)" fill-opacity="0.35"/>
+    <circle cx="150" cy="126" r="17" fill="#f7c3d7"/>
+    <path d="M150 109 C 133 109, 128 124, 130 136 C 122 132, 121 116, 133 109 C 141 105, 159 105, 167 109 C 179 116, 178 132, 170 136 C 172 124, 167 109, 150 109 Z" fill="url(#mewtypePreviewHair)"/>
+    <path d="M122 184 C 122 158, 178 158, 178 184 Z" fill="#ee5577" fill-opacity="0.85"/>
+    <circle cx="186" cy="172" r="13" fill="url(#mewtypePreviewRing)"/>
+    <path d="M186 172C184.2 168.6 179.8 168.1 179.8 172C179.8 175.9 184.2 175.4 186 172C187.8 168.6 192.2 168.1 192.2 172C192.2 175.9 187.8 175.4 186 172Z" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Three personality openers. -->
+    <rect x="248" y="86" width="100" height="32" rx="16" fill="#2a2231" stroke="#ffffff" stroke-opacity="0.14"/>
+    <rect x="356" y="86" width="100" height="32" rx="16" fill="#2a2231" stroke="#ffffff" stroke-opacity="0.14"/>
+    <rect x="464" y="86" width="76" height="32" rx="16" fill="#2a2231" stroke="#ffffff" stroke-opacity="0.14"/>
+    <circle cx="266" cy="102" r="3.5" fill="#ee5577"/>
+    <circle cx="374" cy="102" r="3.5" fill="#ffd966"/>
+    <circle cx="482" cy="102" r="3.5" fill="#9db4ff"/>
+    <rect x="278" y="99" width="52" height="6" rx="3" fill="#ffffff" fill-opacity="0.32"/>
+    <rect x="386" y="99" width="52" height="6" rx="3" fill="#ffffff" fill-opacity="0.32"/>
+    <rect x="494" y="99" width="30" height="6" rx="3" fill="#ffffff" fill-opacity="0.32"/>
+
+    <!-- Five cast colors. -->
+    <rect x="248" y="150" width="34" height="34" rx="10" fill="#ee5577"/>
+    <rect x="298" y="150" width="34" height="34" rx="10" fill="#ffee55"/>
+    <rect x="348" y="150" width="34" height="34" rx="10" fill="#ffbbcc"/>
+    <rect x="398" y="150" width="34" height="34" rx="10" fill="#4477cc"/>
+    <rect x="448" y="150" width="34" height="34" rx="10" fill="#9977cc"/>
+  </g>
+</svg>

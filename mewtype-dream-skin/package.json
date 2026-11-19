@@ -1,0 +1,36 @@
+{
+  "name": "@local/dsh-mewtype-dream",
+  "version": "1.6.2",
+  "private": true,
+  "type": "module",
+  "description": "MewType dream appearance for the DSH Web GUI: five character palettes with official portraits that stay behind the conversation, avatars, character placeholders, personality openers, persistent aurora and starlight, and an effects assembly (aurora, starlight brightness and density, portrait strength and size) beside the sidebar color key plus sliders on the plugin page.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "assets",
+    "NOTICE.md",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}
