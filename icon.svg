@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+  <defs>
+    <linearGradient id="mewtypeIconLoop" x1="6" y1="26" x2="30" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e0457f"/>
+      <stop offset="0.58" stop-color="#ed86a1"/>
+      <stop offset="1" stop-color="#c8901f"/>
+    </linearGradient>
+  </defs>
+  <path d="M18 18C14 10.6 6 9.6 6 18C6 26.4 14 25.4 18 18C22 10.6 30 9.6 30 18C30 26.4 22 25.4 18 18Z"
+        stroke="url(#mewtypeIconLoop)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12 1C12.9 6.2 17.8 11.1 23 12C17.8 12.9 12.9 17.8 12 23C11.1 17.8 6.2 12.9 1 12C6.2 11.1 11.1 6.2 12 1Z"
+        transform="translate(23.84 3.64) scale(0.38)" fill="#c8901f"/>
+  <path d="M12 1C12.9 6.2 17.8 11.1 23 12C17.8 12.9 12.9 17.8 12 23C11.1 17.8 6.2 12.9 1 12C6.2 11.1 11.1 6.2 12 1Z"
+        transform="translate(5.6 26.2) scale(0.2)" fill="#5b7de0"/>
+</svg>
